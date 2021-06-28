@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Checkout</title>
+    <title>Shop Single</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
@@ -104,164 +104,104 @@
     </header>
     <!--Header of Page End-->
 
-    <div class="container">
-        <!--Section Login Start-->
+    <!--Section Product Start-->
+    <section class="container mt-5">
         <div class="row">
-            <div class="d-flex align-items-center col-lg-12 mt-5 border">
-                <p class="p-4 text-muted mb-0">Returning Customer? <a href="#" class="text-decoration-none"
-                        style="color: rgb(116, 14, 189);">Click Here</a> to login</p>
+            <div class="col-md-6">
+                <img src="psd/cloth_1.jpg" class="img-fluid" alt="cloth_1.jpg">
+            </div>
+            <div class="col-md-6">
+                <h2>Tank Top T-Shirt</h2>
+                <p class="text-muted mt-3">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, vitae, explicabo?
+                    Incidunt facere, natus soluta dolores iusto! Molestiae expedita veritatis nesciunt
+                    doloremque sint asperiores fuga voluptate, distintio, aperiam, ratione dolore.
+                </p>
+                <p class="text-muted mt-3">
+                    Ex numquam veritatis debitis minima quo error quam eos dolorum quidem perferendis.
+                    Quos repellat dignissimos minus, eveniet nam voluptatibus molestias omnis
+                    reiciendis perspiciatis illum hic magni iste, velit aperiam quis.
+                </p>
+                <h3 style="color: rgb(116, 14, 189);">$50.00</h3>
+                <div class="mt-3">
+                    <div class="custom-control custom-radio custom-control-inline">
+                        <input type="radio" id="customRadioInline1" name="customRadioInline" class="custom-control-input">
+                        <label class="custom-control-label" for="customRadioInline1">Small</label>
+                      </div>
+                      <div class="custom-control custom-radio custom-control-inline">
+                        <input type="radio" id="customRadioInline2" name="customRadioInline" class="custom-control-input">
+                        <label class="custom-control-label" for="customRadioInline2">Medium</label>
+                      </div>
+                      <div class="custom-control custom-radio custom-control-inline">
+                        <input type="radio" id="customRadioInline3" name="customRadioInline" class="custom-control-input">
+                        <label class="custom-control-label" for="customRadioInline3">Large</label>
+                      </div>
+                      <div class="custom-control custom-radio custom-control-inline">
+                        <input type="radio" id="customRadioInline4" name="customRadioInline" class="custom-control-input">
+                        <label class="custom-control-label" for="customRadioInline4">Extra Large</label>
+                      </div>
+                </div>
+                <div class="btn-group btn-group-toggle mt-3" data-toggle="buttons">
+                    <label class="btn btn-light border p-3" style="border-color:#66056e!important">
+                      <input type="radio" name="options" id="option1" autocomplete="on" checked> -
+                    </label>
+                    <label class="btn btn-light border ml-0 p-3 px-4">
+                       1
+                    </label>
+                    <label class="btn btn-light border p-3" style="border-color:#66056e!important">
+                      <input type="radio" name="options" id="option3" autocomplete="on"> +
+                    </label>
+                  </div>
+                  <div class="mt-4">
+                    <a href="cart.html" class="btn1 btn text-light btn-md hvr-grow-shadow">ADD TOO CART</a>
+                </div>
+            </div>
+            
+            
+        </div>
+    </section>
+    <!--Section Product End-->
+
+    <!--Section Featured Products Start-->
+    <section class="container-fluid CardGroup p-4 mt-5">
+        <div class="container-fluid mt-3">
+            <i class="fas fa-minus d-flex justify-content-center pb-3" style="color: rgb(116, 14, 189);"></i>
+            <h2 class="text-center">Featured Products</h2>
+            <div class="row">
+                <div class="cardbox col-md-4 col-sm-12 d-flex justify-content-center p-2">
+                    <div class="card">
+                        <img src="psd/cloth_1.jpg" class="img-fluid">
+                        <div class="cardbody p-4">
+                            <h5 class="text-center" style="color: rgb(116, 14, 189);">Tank Top</h5>
+                            <p class="text-center">Finding Perfect T-shirts</p>
+                            <p class="text-center" style="color: rgb(116, 14, 189);font-weight: bold;">$50</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="cardbox col-md-4 col-sm-12 d-flex justify-content-center p-2">
+                    <div class="card">
+                        <img src="/psd/shoe_1.jpg" class="img-fluid">
+                        <div class="cardbody p-4">
+                            <h5 class="text-center" style="color: rgb(116, 14, 189);">Corater</h5>
+                            <p class="text-center">Finding Perfect products</p>
+                            <p class="text-center" style="color: rgb(116, 14, 189);font-weight: bold;">$50</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="cardbox col-md-4 col-sm-12 d-flex justify-content-center p-2">
+                    <div class="card">
+                        <img src="/psd/cloth_2.jpg" class="img-fluid">
+                        <div class="cardbody p-4">
+                            <h5 class="text-center" style="color: rgb(116, 14, 189);">Polo Shirt</h5>
+                            <p class="text-center">Finding Perfect products</p>
+                            <p class="text-center" style="color: rgb(116, 14, 189);font-weight: bold;">$50</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <!--Section Login End-->
-
-        <!--Section Checkout Start-->
-        <div class="row">
-            <!--Section Billing Details Start-->
-            <div class="col-md-6 mt-5">
-                <h4>Billing Details</h4>
-                <div class="border p-5 mt-4">
-                    <div class="form-group">
-                        <label for="exampleFormControlSelect1">Country <span class="text-danger">*</span></label>
-                        <select class="form-control ml-0" id="exampleFormControlSelect1" required>
-                            <option>Select a Country</option>
-                            <option>Iraq</option>
-                            <option>Egypt</option>
-                            <option>Jordan</option>
-                            <option>U.S.A</option>
-                            <option>U.A.E</option>
-                        </select>
-                    </div>
-                    <div class="form-row">
-                        <div class="form-group col-md-6">
-                            <label for="inputFName">First Name <span class="text-danger">*</span></label>
-                            <input type="text" class="form-control ml-0" id="inputFName" required>
-                        </div>
-                        <div class="form-group col-md-6">
-                            <label for="inputLName">Last Name <span class="text-danger">*</span></label>
-                            <input type="text" class="form-control ml-0" id="inputLName">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label for="inputCN">Company Name</label>
-                        <input type="text" class="form-control ml-0" id="inputCN">
-                    </div>
-                    <div class="form-group">
-                        <label for="inputAddress">Address <span class="text-danger">*</span></label>
-                        <input type="text" class="form-control ml-0" id="inputAddress" placeholder="Street Address"
-                            required>
-                    </div>
-                    <div class="form-group">
-                        <input type="text" class="form-control ml-0" id="inputAddress"
-                            placeholder="Apartment, Suit, until etc (Optional)">
-                    </div>
-                    <div class="form-row justify-content-between">
-                        <div class="form-group col-md-6">
-                            <label for="inputState">State / Country <span class="text-danger">*</span></label>
-                            <input type="text" class="form-control ml-0" id="inputState" required>
-                        </div>
-                        <div class="form-group col-md-5">
-                            <label for="inputZip">Posta / Zip <span class="text-danger">*</span></label>
-                            <input type="text" class="form-control ml-0" id="inputZip" required>
-                        </div>
-                    </div>
-                    <div class="form-row justify-content-between">
-                        <div class="form-group col-md-6">
-                            <label for="inputEmail">Email Address <span class="text-danger">*</span></label>
-                            <input type="email" class="form-control ml-0" id="inputEmail" required>
-                        </div>
-                        <div class="form-group col-md-5">
-                            <label for="inputPhone">Phone <span class="text-danger">*</span></label>
-                            <input type="tel" class="form-control ml-0" id="inputPhone" required>
-                        </div>
-                        <div class="d-block">
-                            <div class="form-check mt-4 ml-1">
-                                <input class="form-check-input" type="checkbox" id="gridCheck1">
-                                <label class="form-check-label" for="gridCheck1">
-                                    Create an Account?
-                                </label>
-                            </div>
-                            <div class="form-check mt-3 ml-1">
-                                <input class="form-check-input" type="checkbox" id="gridCheck2">
-                                <label class="form-check-label" for="gridCheck2">
-                                    Ship To A Different Address?
-                                </label>
-                            </div>
-                            <div class="form-group mt-4">
-                                <label for="OrderNotes">Order Notes</label>
-                                <textarea class="form-control ml-0 col-md-12" id="OrderNotes" rows="6" cols="90"
-                                    placeholder="Write Your Notes Here"></textarea>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-            <!--Section Billing Details End-->
-
-            <!--Section Coupon Code Start-->
-            <div class="col-md-6 mt-5">
-                <h4>Coupon Code</h4>
-                <div class="border col-md-12 mt-4 p-5">
-                    <p>Enter Your Coupon Code If You Have One</p>
-                    <div class="rounded d-flex border sub">
-                        <input type="text" class="form-control-plaintext ml-0 p-2 col-8" id="Couponcode"
-                            placeholder="Coupon Code">
-                        <button type="button" class="btn ml-4 px-3" data-toggle="button"
-                            style="background-color: rgb(116, 14, 189); color: whitesmoke">
-                            Apply
-                        </button>
-                    </div>
-                </div>
-
-                <h4 class="mt-4">Your Order</h4>
-                <div class="border col-md-12 mt-4 p-5">
-                    <table class="table table-sm">
-                        <thead>
-                            <tr>
-                                <th scope="col" class="border-top-0 p-3">Product</th>
-                                <th scope="col" class="border-top-0 p-3">Total</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td class="p-3">Top Up T-Shirt x 1</td>
-                                <td class="p-3">$250.00</td>
-                            </tr>
-                            <tr>
-                                <td class="p-3">Polo Shirt</td>
-                                <td class="p-3">$100.00</td>
-                            </tr>
-                            <tr>
-                                <th class="p-3">Cart Subtotal</th>
-                                <td class="p-3">$350.00</td>
-                            </tr>
-                            <tr>
-                                <th class="p-3">Order Total</th>
-                                <th class="p-3">$350.00</th>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <div class="mt-5">
-                        <button type="button" class="btn  col-md-12 p-3 text-left"
-                            style="color: rgb(116, 14, 189);border-color: rgb(116, 14, 189);">Direct Bank
-                            Transfer</button>
-                        <button type="button" class="btn  col-md-12 p-3 mt-3 text-left"
-                            style="color: rgb(116, 14, 189);border-color: rgb(116, 14, 189);">Cheque Payment</button>
-                        <button type="button" class="btn  col-md-12 p-3 mt-3 text-left"
-                            style="color: rgb(116, 14, 189);border-color: rgb(116, 14, 189);">Paypal</button>
-                        <a href="contact.html"><button type="button"
-                            class="btn  col-md-12 p-3 mt-3 text-monospace text-uppercase hvr-grow-shadow"
-                            style="color: white;background-color: rgb(116, 14, 189);letter-spacing: 5px;">Place
-                            Order</button></a>
-                    </div>
-                </div>
-            </div>
-            <!--Section Coupon Code End-->
-        </div>
-    </div>
-    <!--Section Checkout End-->
-
-
+    </section>
+    <!--Section Featured Products End-->
 
 
     <!--Section Footer Start-->
@@ -341,7 +281,6 @@
         </div>
     </footer>
     <!--Section Footer End-->
-
 </body>
 
 </html>
